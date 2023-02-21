@@ -47,6 +47,7 @@ function [kurtosis_vector,skewness_vector, power_vector, var_vector, bas_vector]
           hold on;
           plot(sv_ups*(50000/mean(skewness_vector)));
           title("ECG+Skewness");
+          
 
           figure
           plot(data_s);
